@@ -12,48 +12,62 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/snk"
-        android:gravity="center">
+        android:gravity="center"
+        tools:layout_editor_absoluteX="-87dp"
+        tools:layout_editor_absoluteY="0dp">
 
 
         <!-- Your Toolbar -->
 
-            <LinearLayout
-                android:id="@+id/filterLayout"
-                android:layout_width="match_parent"
+        <LinearLayout
+            android:id="@+id/filterLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal">
+
+            <!-- Add the filter EditTexts and Button here -->
+            <!-- Example: -->
+
+
+            <EditText
+                android:id="@+id/min"
+                android:layout_width="160dp"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:layout_marginLeft="20dp"
-                >
 
-                <!-- Add the filter EditTexts and Button here -->
-                <!-- Example: -->
-                <EditText
-                    android:id="@+id/min"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:hint="Prix minimum"
-                    android:inputType="numberDecimal"
-                   />
 
-                <EditText
-                    android:id="@+id/max"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:hint="Prix maximum"
-                    android:inputType="numberDecimal"
-                    android:layout_marginLeft="20dp"
-                   />
-                <Button
-                    android:id="@+id/btnFilter"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Filtrer"
-                    android:background="@color/black"
-                    android:textColor="#ffffff"
-                    android:layout_marginLeft="10dp"
-                    />
+                android:background="@drawable/carrer_shape"
+                android:backgroundTint="@color/white"
 
-            </LinearLayout>
+                android:hint="Price min"
+
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+                android:layout_marginLeft="10dp"
+
+
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+            <EditText
+                android:id="@+id/max"
+                android:layout_width="164dp"
+                android:layout_height="wrap_content"
+
+
+                android:background="@drawable/carrer_shape"
+                android:backgroundTint="@color/white"
+
+                android:hint="Price max"
+
+                android:inputType="numberDecimal"
+                android:padding="8dp"
+
+
+                android:textColor="@color/black"
+                android:textColorHint="@color/black" />
+
+        </LinearLayout>
 
 
         <!-- RecyclerView for your items -->
@@ -65,6 +79,16 @@
             android:layout_marginTop="115dp"
             android:layout_marginRight="20dp" />
 
+        <Button
+            android:id="@+id/btnFilter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="50dp"
+
+            android:background="@color/black"
+            android:text="Filtrer"
+            android:textColor="#ffffff" />
 
 
     </RelativeLayout>

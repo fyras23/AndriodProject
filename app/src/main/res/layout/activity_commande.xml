@@ -22,7 +22,7 @@
         android:layout_marginLeft="3dp"
         android:layout_marginTop="80dp"
         android:layout_marginBottom="10dp"
-        android:text="Add commande:"
+        android:text="Add an order:"
         android:textColor="#FFFFFF"
         android:textSize="30sp"
         android:textStyle="bold" />
@@ -59,7 +59,8 @@
         android:layout_centerHorizontal="true"
         android:text=""
         android:textSize="25dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -79,7 +80,7 @@
             android:background="@drawable/carrer_shape"
             android:backgroundTint="@color/white"
             android:drawablePadding="8dp"
-            android:hint="nom"
+            android:hint="Name"
             android:inputType="text"
             android:padding="8dp"
             android:textColor="@color/black"
@@ -101,7 +102,7 @@
             android:background="@drawable/carrer_shape"
             android:backgroundTint="@color/white"
             android:drawablePadding="8dp"
-            android:hint="prenom"
+            android:hint="Last name"
             android:padding="8dp"
 
 
@@ -142,7 +143,7 @@
             android:background="@drawable/carrer_shape"
             android:backgroundTint="@color/white"
             android:drawablePadding="8dp"
-            android:hint="telephone"
+            android:hint="Phone"
             android:inputType="number"
             android:padding="8dp"
 

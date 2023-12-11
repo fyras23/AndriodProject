@@ -1,9 +1,10 @@
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
     <item
         android:title="Home"
         android:id="@+id/menu_home"/> <!-- Utilisation de "menu_home" au lieu de "home" -->
     <item
-        android:title="mes commandes"
+        android:title="my orders"
         android:id="@+id/commandes"/> <!-- Utilisation de "menu_discover" au lieu de "discover" -->
     <!-- Utilisation de "menu_stores" au lieu de "stores" -->
     <item

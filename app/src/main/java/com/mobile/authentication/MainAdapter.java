@@ -33,7 +33,7 @@ public class MainAdapter extends FirebaseRecyclerAdapter<MainModel,MainAdapter.m
     @Override
     protected void onBindViewHolder(@NonNull myviewholder holder, int position, @NonNull MainModel model) {
         holder.name.setText(model.getName());
-        holder.price.setText(String.valueOf(model.getPrice()));
+        holder.price.setText(String.valueOf(model.getPrice()+" DT"));
 
         Glide.with(holder.img.getContext())
                 .load(model.getImg())

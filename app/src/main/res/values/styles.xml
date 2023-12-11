@@ -1,0 +1,6 @@
+<!-- res/values/styles.xml -->
+<resources>
+    <style name="MenuItem" parent="@android:style/TextAppearance.Widget.TextView">
+        <item name="android:textColor">#C82F3C</item>
+    </style>
+</resources>
