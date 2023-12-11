@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/snk"
+    android:gravity="center"><![CDATA[
+
+    tools:context=".Commande">
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="10dp"
+        android:text="Add commande:"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/destinationImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <TextView
+        android:id="@+id/destinationProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destinationImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:text=""
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+
+        />
+
+    <!-- TextView for product price below product name -->
+    <TextView
+        android:id="@+id/destinationProductPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/destinationProductName"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="25dp"
+        android:textColor="@color/white"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="468dp">
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="226dp"
+            android:layout_marginBottom="400dp"
+            android:background="@drawable/carrer_shape"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="8dp"
+            android:hint="nom"
+            android:inputType="text"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+
+            />
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="400dp"
+            android:background="@drawable/carrer_shape"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="8dp"
+            android:hint="prenom"
+            android:padding="8dp"
+
+
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/adress"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="231dp"
+            android:layout_marginBottom="320dp"
+            android:background="@drawable/carrer_shape"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="8dp"
+            android:hint="adress"
+            android:padding="8dp"
+
+
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/telephone"
+            android:layout_width="164dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="320dp"
+            android:background="@drawable/carrer_shape"
+            android:backgroundTint="@color/white"
+            android:drawablePadding="8dp"
+            android:hint="telephone"
+            android:inputType="number"
+            android:padding="8dp"
+
+
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <ImageView
+            android:id="@+id/locaton"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginEnd="138dp"
+            android:layout_marginBottom="160dp"
+            android:src="@drawable/maps" />
+
+
+        <ImageView
+
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="125dp"
+            android:layout_marginBottom="75dp"
+            android:background="@drawable/carrer_shape"
+            android:drawablePadding="8dp"
+            android:onClick="addCommande"
+            android:src="@drawable/accept"
+            android:padding="8dp"
+            android:text="save" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+

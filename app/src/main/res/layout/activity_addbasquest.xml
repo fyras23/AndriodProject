@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Basquet:"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="10dp"
+        />
+    <ImageView
+        android:id="@+id/firebaseimage"
+        android:layout_width="150dp"
+        android:layout_height="140dp"
+        android:src="@drawable/upload"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/name"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="text"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/carrer_shape"
+        android:padding="8dp"
+        android:drawablePadding="8dp"
+        android:layout_gravity="center"
+
+
+        />
+
+    <EditText
+        android:id="@+id/prix"
+
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="prix"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/carrer_shape"
+        android:padding="8dp"
+        android:drawablePadding="8dp"
+        android:layout_gravity="center"
+
+
+        />
+    <EditText
+        android:id="@+id/descreption"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:hint="descreption"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/carrer_shape"
+        android:padding="8dp"
+        android:drawablePadding="8dp"
+        android:layout_gravity="center"
+
+
+        />
+   <Button
+       android:id="@+id/uploadImage"
+       android:layout_width="170dp"
+       android:layout_height="wrap_content"
+         android:text="Add"
+         android:layout_marginTop="2dp"
+         android:layout_marginStart="10dp"
+         android:layout_marginEnd="10dp"
+         android:layout_marginBottom="10dp"
+         android:background="@drawable/carrer_shape"
+         android:padding="8dp"
+         android:drawablePadding="8dp"
+         android:layout_gravity="center"
+
+       />
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+
